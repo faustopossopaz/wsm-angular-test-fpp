@@ -51,22 +51,33 @@ export class HomeComponent implements OnInit {
   }
 
   getCheckBox(e:any, i:number) {
+    //capture arrow to change color
+    let arrow = document.getElementById('arrow' + i);
+
     //capture text to change color
     let textChangeColor = document.getElementById('text'+i);
 
     //equals elements to array
     this.buttonChecks.length = this.actions.length;
 
-    //store in array if target is checked
+    //checked conditional
     if(e.target.checked) {
+      //store true in array if target is checked
       this.buttonChecks.splice(i, 1, true);
-      if (textChangeColor) {
+      if (textChangeColor && arrow) {
+        //change text color
         textChangeColor['style'].color = '#189A36';
+        //change arrow color
+        arrow['style'].filter = 'invert(29%) sepia(72%) saturate(3968%) ' +
+                                'hue-rotate(129deg) brightness(103%) contrast(81%)';
       }
     } else {
+      //store false in array if target is uncheck
       this.buttonChecks.splice(i, 1, false);
-      if (textChangeColor) {
-        textChangeColor['style'].color = '#14375F';}
+      if (textChangeColor && arrow) {
+        textChangeColor['style'].color = '#14375F';
+        arrow['style'].filter = 'unset';
+      }
     }
 
     //check array values for disabled button
@@ -77,6 +88,7 @@ export class HomeComponent implements OnInit {
     let arrow = document.getElementById('arrow' + i);
     if(arrow) {
       if (e.target.ariaExpanded === 'true') {
+        //rotate arrow if collapse
         arrow['style'].transform = 'scaleY(-1)';
       } else {
         arrow['style'].transform = 'scaleY(1)';
