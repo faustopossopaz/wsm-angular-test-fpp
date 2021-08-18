@@ -8,8 +8,8 @@ This application is about an angular test.
 
 # Demo 
 
-<img width="200px" height="400px" src="src/assets/imgs/capt1.png">
-<img width="200px" height="400px" src="src/assets/imgs/capt2.png">
+<img width="1000px" height="548px" src="src/assets/imgs/capt1.jpg">
+<img width="1000px" height="548px" src="src/assets/imgs/capt2.jpg">
 
 
 &nbsp;
