@@ -32,9 +32,7 @@ export class HomeComponent implements OnInit {
     this.optimizerService.getContentData().subscribe(
       (data:any) => {
         this.htmlToAdd = data[0].itemVariants[0].description;
-        console.log(data)
         this.actions = data[0].actions;
-        //this.actionsVariants = this.actions.name;
       },
       (err) => {
         console.log(err)
