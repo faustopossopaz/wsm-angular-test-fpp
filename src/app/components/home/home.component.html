@@ -1,0 +1,42 @@
+<app-navbar></app-navbar>
+<div class="content d-flex">
+  <app-sidebar (clickedItemMenu)="clickedItemMenu($event)"></app-sidebar>
+  <div class="main-content">
+    <div class="instructions">
+      {{instructionsTitle}}
+    </div>
+    <hr>
+    <div [innerHtml]="htmlToAdd" class="html-add animate__animated animate__fadeIn"></div>
+    <div class="optimization">
+      {{optimizationTitle}}
+    </div>
+    <hr>
+    <div *ngFor="let action of actions; let i = index" class="collapse-item">
+      <div class="d-flex align-items-center">
+        <input type="checkbox" class="checkbox" (change)="getCheckBox($event, i)">
+        <div class="d-flex justify-content-between w-100">
+          <a data-bs-toggle="collapse" href="#collapseExample{{i}}" role="button"
+             aria-expanded="false" aria-controls="collapseExample" id="text{{i}}"
+             (click)="changeArrowDirection($event,i)">
+            {{action.name}}
+          </a>
+          <img src="/assets/imgs/small-down-blue.png" alt="down" id="arrow{{i}}">
+        </div>
+      </div>
+      <div class="collapse" id="collapseExample{{i}}" *ngFor="let actionVariant of action.actionVariants">
+        <div [innerHtml]="actionVariant.description" class="action-variant"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer d-flex justify-content-around align-items-center">
+  <div>
+    <div class="footer-title">{{footerTitle}}</div>
+    <div class="footer-subtitle">{{footerContent}}</div>
+  </div>
+  <button [disabled]="disableButton"
+          [ngClass]="{'disabled-button': disableButton === true,
+                       'primary-button': disableButton === false}">
+          {{buttonContinue}}
+  </button>
+</div>

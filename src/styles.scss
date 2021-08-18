@@ -1,0 +1,85 @@
+//variables definitions
+:root{
+  --primary-color: #14375F;
+  --secondary-color: #0A70B9;
+  --tertiary-color: #FAFAFA;
+  --light-blue: #55ACEC;
+}
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+//global fonts
+@font-face {
+  font-family: "lato-regular";
+  src: url('./assets/fonts/Lato/Lato-regular.ttf');
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src: url('./assets/fonts/Lato/Lato-Bold.ttf');
+}
+
+
+//global buttons
+.primary-button {
+  background-color: #0877C7;
+  color:white;
+  border-radius: 8px;
+  border:unset;
+  padding: 8px 30px;
+  font-family: "lato-bold", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.disabled-button {
+  background-color: #CBCBCB;
+  color:white;
+  border-radius: 8px;
+  border:unset;
+  padding: 8px 30px;
+  font-family: "lato-bold", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.primary-button:hover {
+  background-color: #0A70B9;
+}
+
+.primary-button:focus {
+  background-color: #105F98;
+}
+
+//home styles
+ul {
+  list-style-type: none;
+  padding-left:0 !important;
+}
+
+.main-content strong {
+  font-family: "lato-bold", Arial, Helvetica, sans-serif;
+}
+
+.action-variant p {
+  font-size: 13px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  margin-left: 27px;
+}
+
+.action-variant ul {
+  font-size: 13px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  margin-left: 27px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+<div class="content">
+  <div class="small-title animate__animated animate__fadeInLeft">{{scenarioSelected}}</div>
+  <div class="title animate__animated animate__fadeInLeft">{{HighCpa}}</div>
+</div>
+<ul>
+  <li *ngFor="let option of menuOptions; let i = index;" (click)="itemClicked(option,i)"
+      [ngClass]="{'item-active': activeItem === i}">
+    {{option.name}}
+  </li>
+</ul>
+
+

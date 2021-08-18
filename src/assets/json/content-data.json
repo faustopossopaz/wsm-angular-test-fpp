@@ -1,0 +1,628 @@
+[
+    {
+        "_id": 34,
+        "name": "Devices | High CPA",
+        "sortOrder": 4,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Devices View</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Left Navigation Panel &gt; Campaigns &gt; Select campaign to optimize</li>\r\n\t<li>Left Page Menu &gt; Devices</li>\r\n</ol>\r\n\r\n<p><strong>Once in Devices View</strong></p>\r\n\r\n<ul>\r\n\t<li>Select 90 Days up to today on the Calendar options (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Specify 90 days up to today</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Sort the devices by Cost (high to low)</p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find&nbsp;<strong>Cost</strong>&nbsp;column</li>\r\n\t<li>Click on the word&nbsp;<strong>Cost</strong>&nbsp;in the columns</li>\r\n\t<li>Ensure values are shown from&nbsp;<strong>highest to lowest</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Check the conversions column to identify which devices have not generated any conversions and have gone over the ideal cost per acquisition by at least 200%</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Based on these insights, select the actions that apply</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p><strong>*High Cost per Acquisition would vary per industry and campaign goals.</strong></p>\r\n\r\n<p>*These instructions can&nbsp;be replicated at the ad group level since the bid adjustments can also be applied at that level.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            },
+            {
+                "_id": 2,
+                "name": "Budget"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 4,
+                "name": "Decrease bids on computers by lowering the bid adjustment on the Bid adj. column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the edit section in the Bid adj. column for&nbsp;the respective device, and apply a decrease to lower the bids at the devices level.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 5,
+                "name": "Decrease bids on tablets by lowering the bid adjustment on the Bid adj. column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the edit section in the Bid adj. column for&nbsp;the respective device, and apply a decrease to lower the bids at the devices level.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 6,
+                "name": "Decrease bids on mobile phones by lowering the bid adjustment on the Bid adj. column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the edit section in the Bid adj. column for&nbsp;the respective device, and apply a decrease to lower the bids at the devices level.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 35,
+        "name": "Devices | No Conversions",
+        "sortOrder": 2,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Devices View</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Left Navigation Panel &gt; Campaigns &gt; Select campaign to optimize</li>\r\n\t<li>Left Page Menu &gt; Devices</li>\r\n</ol>\r\n\r\n<p><strong>Once in Devices View</strong></p>\r\n\r\n<ul>\r\n\t<li>Select 90 Days up to today on the Calendar options (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Specify 90 days up to today</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Sort the devices by Cost (high to low)</p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find&nbsp;<strong>Cost</strong>&nbsp;column</li>\r\n\t<li>Click on the word&nbsp;<strong>Cost</strong>&nbsp;in the columns</li>\r\n\t<li>Ensure values are shown from&nbsp;<strong>highest to lowest</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Check the conversions column to identify which devices have not generated any conversions and have gone over the ideal cost per acquisition by at least 200%</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Based on these insights, select the actions that apply</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p><strong>*High Cost per Acquisition would vary per industry and campaign goals.</strong></p>\r\n\r\n<p>*These instructions can&nbsp;be replicated at the ad group level since the bid adjustments can also be applied at that level.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 2,
+                "name": "Budget"
+            },
+            {
+                "_id": 1,
+                "name": "CPA"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Exclude computers by setting the bid adjustment at -100% on the Bid adj. Column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the Bid Adjustment Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<p>Click on the Bid adj. Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Exclude mobile phones by setting the bid adjustment at -100% on the Bid adj. Column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the Bid Adjustment Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<p>Click on the Bid adj. Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 3,
+                "name": "Exclude tablets by setting the bid adjustment at -100% on the Bid adj. Column.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<p>Click on the Bid Adjustment Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<p>Click on the Bid adj. Column, select the decrease option from the drop-down, then proceed to enter 100% for the device to be successfully excluded.</p>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 46,
+        "name": "Keywords | No Conversions",
+        "sortOrder": 1,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Find the Keyword View</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Campaigns &gt; Select Campaign to optimize</li>\r\n\t<li>Keywords</li>\r\n</ol>\r\n\r\n<p><strong>Once in the Keywords View:</strong></p>\r\n\r\n<ul>\r\n\t<li>Take a timeframe of at least 90 days (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Select custom date</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Add a filter to show keywords that have not generated conversions</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Filter&nbsp;</li>\r\n\t<li>Click on conversions &gt; conversions &gt; less than 1 (&lt;1) &gt; apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Sort your keywords by Cost (high to low)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find&nbsp;<strong>Cost&nbsp;</strong>column</li>\r\n\t<li>Click on the word <strong>Cost</strong>&nbsp;in the columns</li>\r\n\t<li>Ensure values are shown from <strong>highest to lowest</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Based on these insights, select the actions that apply</li>\r\n</ul>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on &quot;How to add columns&quot; to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Pause keywords that have no conversions and generated a High Cost",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the keywords from the checkbox section next to them.</li>\r\n\t<li>Once keywords have been selected, click on edit from the blue bar and then click on <strong>pause.</strong></li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Lower bids on keywords that have no conversions and generated a High Cost.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the keywords from the checkbox section next to them.</li>\r\n\t<li>Once keywords have been selected, click on edit from the blue bar and then click <strong>Change max. CPC.</strong> and set the new bids.</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 45,
+        "name": "Keywords | High CPA",
+        "sortOrder": 1,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Find the Keyword View</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Campaigns &gt; Select Campaign to optimize</li>\r\n\t<li>Keywords</li>\r\n</ol>\r\n\r\n<p><strong>Once in the Keywords View:</strong></p>\r\n\r\n<ul>\r\n\t<li>Take a timeframe of at least 90 days (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Select custom date</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Add a filter to show keywords that have not generated conversions</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Filter (blue funnel icon)</li>\r\n\t<li>Click on Conversions &gt; Conversions &gt; Less than one&nbsp;(&lt;1) &gt; Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Sort your keywords by Cost (high to low)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find&nbsp;<strong>Cost</strong>&nbsp;column</li>\r\n\t<li>Click on the word&nbsp;<strong>Cost</strong>&nbsp;in the columns</li>\r\n\t<li>Ensure values are shown from <strong>highest to lowest</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Use a different filter to show keywords that have generated conversions at a higher than ideal CPA</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Filter (blue funnel icon)</li>\r\n\t<li>Click on Performance &gt; Conversions &gt; Greater than one (&gt;1) &gt; Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Sort your keywords by Cost / conv. (high to low)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find&nbsp;<strong>Cost / conv.</strong>&nbsp;column</li>\r\n\t<li>Click on the word&nbsp;<strong>Cost / conv.</strong>&nbsp;in the columns</li>\r\n\t<li>Ensure values are shown from <strong>highest to lowest</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Based on these insights, select the actions that apply</li>\r\n</ul>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<ul>\r\n\t<li>If you are missing any of the columns mentioned above, check our Help Center to find instruction on <strong>&quot;How to add columns&quot;</strong> to your views.</li>\r\n</ul>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Pause keywords that have generated conversions at a higher than ideal CPA or no conversions at all.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the keywords from the checkbox section next to them.</li>\r\n\t<li>Once keywords have been selected, click on edit from the blue bar and then click on <strong>pause.</strong></li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 59,
+        "name": "Locations | No Conversions",
+        "sortOrder": 5,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Find User location report view:</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Campaigns &gt; Select campaign to optimize</li>\r\n\t<li>Locations &gt; Geographic report &gt; Select User location report from the drop-down menu</li>\r\n\t<li>Select country &gt; Select a view for the type of geographic area you will evaluate</li>\r\n</ol>\r\n\r\n<p><strong>Once in the desired view in the User location report:</strong></p>\r\n\r\n<ul>\r\n\t<li>Select 90 Days up to today on the Calendar options (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Specify 90 days up to today</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Add a filter to show locations that have not generated conversions</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>Filter (blue icon)</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Click on Conversions &gt; Conversions &gt; Less than 1 (&lt;1) &gt; Apply</p>\r\n\t</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Sort your locations by Cost (high to low)</p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find &quot;Cost&quot; column</li>\r\n\t<li>Click on the word &quot;Cost&quot; in the columns</li>\r\n\t<li>Ensure values are shown from highest to lowest</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Based on these insights, select the actions that apply</li>\r\n</ul>\r\n\r\n<p>*<strong>Apply exclusions or bid adjustments at a granular level.</strong>&nbsp;For example, you are targeting&nbsp;multiple states and there is one particular state that is driving high costs without conversions or driving high CPA. Rather than outright excluding it, drill down on the geographic areas within&nbsp;this state and exclude locations at a granular level (by county, city, zip code, etc).</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on &ldquo;How to add columns&rdquo; to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Lower bid adjustments on locations that have no conversions and generated a high cost.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>Change bid adjustments</strong>, set a new bid.&nbsp;</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section, next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>Change Bid Adjustments</strong>, set new bid.&nbsp;</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Exclude locations that have no conversions and generated a high cost.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>Remove.</strong></li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section, next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>remove.&nbsp;</strong></li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 58,
+        "name": "Locations | High CPA",
+        "sortOrder": 6,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>Find User location report view:</strong></p>\r\n\r\n<ol>\r\n\t<li>Overview</li>\r\n\t<li>Campaigns &gt; Select campaign to optimize</li>\r\n\t<li>Locations &gt; Geographic report &gt; Select User location report from the drop-down menu</li>\r\n\t<li>Select country &gt; Select a view for the type of geographic area you will evaluate</li>\r\n</ol>\r\n\r\n<p><strong>Once in the desired view in the User location report:</strong></p>\r\n\r\n<ul>\r\n\t<li>Select 90 Days up to today on the Calendar options (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Specify 90 days up to today</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Add a filter to show locations that have not generated conversions</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>Filter (blue icon)</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Click on Conversions &gt; Conversions &gt; Less than 1 (&lt;1) &gt; Apply</p>\r\n\t</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Sort your locations by Cost (high to low)</p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find &quot;Cost&quot; column</li>\r\n\t<li>Click on the word &quot;Cost&quot; in the columns</li>\r\n\t<li>Ensure values are shown from highest to lowest</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Use a different&nbsp;filter to show locations with higher than ideal CPA</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>\r\n\t<p>Filter (blue icon)</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>Click on Conversions &gt; Conversions &gt; Greater&nbsp;than 1 (&gt;1) &gt; Apply</p>\r\n\t</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p>Sort your locations by Cost / conv. (high to low)</p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find &quot;Cost / conv.&quot; column</li>\r\n\t<li>Click on the word &quot;Cost / conv.&quot; in the columns</li>\r\n\t<li>Ensure values are shown from highest to lowest</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Based on these insights, select the actions that apply</li>\r\n</ul>\r\n\r\n<p>*<strong>Apply exclusions or bid adjustments at a granular level.</strong>&nbsp;For example, you are targeting&nbsp;multiple states and there is one particular state that is driving high costs without conversions or driving high CPA. Rather than outright excluding it, drill down on the geographic areas within&nbsp;this state and exclude locations at a granular level (by county, city, zip code, etc).</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on &ldquo;How to add columns&rdquo; to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Exclude locations that have generated conversions at a higher than ideal CPA.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>Remove.</strong></li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Lower bid adjustments on locations that have generated conversions at a higher than ideal CPA.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Select the locations from the checkbox section next to them.</li>\r\n\t<li>Once locations have been selected, click on edit from the blue bar and then click <strong>Change bid adjustments</strong>, then set a new bid.</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 93,
+        "name": "Search Partners | No Conversions",
+        "sortOrder": 7,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>CAMPAIGN VIEW</strong></p>\r\n\r\n<ul>\r\n\t<li>Take a timeframe of at least 90 days (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Select custom date</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Segment the metrics by &quot;Network (with Search Partners)&quot;</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find Segment in the Mid Toolbar Section</li>\r\n\t<li>Click on Segment &gt; Network (with Search Partners)</li>\r\n</ol>\r\n\r\n<p>Compare how &quot;Search Partners&quot; are performing vs Google Search in terms of Spend/CPA/Conv. Value/Conv. rate</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on <strong>&quot;How to add columns&quot;</strong> to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Variant 2",
+                "description": "<p><strong>CAMPAIGN VIEW</strong></p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p><strong>Take a timeframe of at least 90 days (if possible)</strong></p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li><strong>Calendar (top right)</strong></li>\r\n\t<li><strong>Select custom date</strong></li>\r\n\t<li><strong>Apply</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p><strong>Segment the metrics by &quot;Network (with Search Partners)&quot;</strong></p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li><strong>Find Segment in the Mid Toolbar Section</strong></li>\r\n\t<li><strong>Click on Segment &gt; Network (with Search Partners)</strong></li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p><strong>Compare how &quot;Search Partners&quot; are performing vs Google Search in terms of Spend/CPA/Conv. Value/Conv. rate.</strong></p>\r\n\t</li>\r\n</ul>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on &quot;How to add columns&quot; to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            },
+            {
+                "_id": 2,
+                "name": "Budget"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Exclude search partners from the campaign if they have only generated costs and no conversions.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Go to Settings.</li>\r\n\t<li>Click on &ldquo;Networks&rdquo;.</li>\r\n\t<li>Remove the check that includes Google Search Partners by clicking on it.<br />\r\n\t&nbsp;</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "_id": 92,
+        "name": "Search Partners | High CPA",
+        "sortOrder": 8,
+        "creationDate": "2018-08-16 00:10:13",
+        "lastUpdate": "2018-08-16 00:10:13",
+        "status": "ACTIVE",
+        "itemVariants": [
+            {
+                "_id": 1,
+                "name": "Variant 1",
+                "description": "<p><strong>CAMPAIGN VIEW</strong></p>\r\n\r\n<ul>\r\n\t<li>Take a timeframe of at least 90 days (if possible)</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Select custom date</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li>Segment the metrics by &quot;Network (with Search Partners)&quot;</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find Segment in the Mid Tool Bar Section.</li>\r\n\t<li>Click on Segment&nbsp;&gt; Network (with Search Partners)</li>\r\n</ol>\r\n\r\n<p>Compare how &quot;Search Partners&quot; are performing vs Google Search in terms of Spend/CPA/Conv. Value/Conv. rate.</p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on <strong>&quot;How to add columns&quot;</strong> to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            },
+            {
+                "_id": 2,
+                "name": "Variant 2",
+                "description": "<p><strong>CAMPAIGN VIEW</strong></p>\r\n\r\n<ul>\r\n\t<li>\r\n\t<p><strong>Take a timeframe of at least 90 days (if possible)</strong></p>\r\n\t</li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Calendar (top right)</li>\r\n\t<li>Select custom date</li>\r\n\t<li>Apply</li>\r\n</ol>\r\n\r\n<ul>\r\n\t<li><strong>Segment the metrics by &quot;Network (with Search Partners)&quot;</strong></li>\r\n</ul>\r\n\r\n<ol>\r\n\t<li>Find Segment in the Mid Toolbar Section.</li>\r\n\t<li>Click on Segment &gt; Network (with Search Partners)</li>\r\n</ol>\r\n\r\n<p><strong>Compare how &quot;Search Partners&quot; are performing vs Google Search in terms of Spend/CPA/Conv. Value/Conv. rate.</strong></p>\r\n\r\n<p><strong>Note:</strong></p>\r\n\r\n<p>If you are missing any of the columns mentioned above, check our Help Center to find instructions on &quot;How to add columns&quot; to your views.</p>",
+                "serviceTypes": [
+                    "adwords"
+                ],
+                "businessTypes": [
+                    "lead_gen"
+                ]
+            }
+        ],
+        "categories": [
+            {
+                "_id": 1,
+                "name": "CPA"
+            },
+            {
+                "_id": 2,
+                "name": "Budget"
+            }
+        ],
+        "goals": [
+            {
+                "_id": 1,
+                "name": "High CPA",
+                "summary": "The Campaign does not have the optimal CPA. Our previous efforts have made our CPA higher than desired."
+            }
+        ],
+        "actions": [
+            {
+                "_id": 1,
+                "name": "Exclude search partners from the campaign, if they generated conversions at a CPA higher than ideal.",
+                "actionVariants": [
+                    {
+                        "_id": 1,
+                        "description": "<ul>\r\n\t<li>Go to Settings.</li>\r\n\t<li>Click on &ldquo;Networks&rdquo;.</li>\r\n\t<li>Remove the check that includes Google Search Partners by clicking on it.<br />\r\n\t&nbsp;</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    },
+                    {
+                        "_id": 2,
+                        "description": "<ul>\r\n\t<li>Go to Settings.</li>\r\n\t<li>Click on networks.</li>\r\n\t<li>Remove the check that includes Google Search Partners by clicking on it.</li>\r\n</ul>",
+                        "serviceTypes": [
+                            "adwords"
+                        ],
+                        "businessTypes": [
+                            "lead_gen"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,428 @@
+[
+    {
+        "id": "adwords1234567890",
+        "name": "Call Only Campaign",
+        "type": "SEARCH",
+        "subType": null,
+        "status": "ACTIVE",
+        "serviceType": "adwords",
+        "currency": "USD",
+        "metrics": {
+            "monthly": {
+                "20200229_20200329": {
+                    "_id": "adwords1234567890",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1582956000000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1583301600000"
+                        }
+                    },
+                    "impressions": 5,
+                    "clicks": 0,
+                    "cost": 0,
+                    "conversions": 0,
+                    "conversionValue": 0,
+                    "searchTopImpressionShare": 26,
+                    "searchImpressionShare": 42.699999999999996,
+                    "searchBudgetLostImpressionShare": 0,
+                    "searchRankLostImpressionShare": 57.26666666666667,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 0,
+                    "roas": 0,
+                    "ctr": 0,
+                    "cpc": 0,
+                    "conversionRate": 0,
+                    "cpm": 0,
+                    "from_text": "Feb 29th",
+                    "to_text": "Mar 29th"
+                },
+                "20200330_20200428": {
+                    "_id": "adwords1234567890",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1585720800000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1588053600000"
+                        }
+                    },
+                    "impressions": 594,
+                    "clicks": 38,
+                    "cost": 125.53999999999999,
+                    "conversions": 8.6,
+                    "conversionValue": 8.6,
+                    "searchTopImpressionShare": 20.571428571428573,
+                    "searchImpressionShare": 28.464285714285715,
+                    "searchBudgetLostImpressionShare": 16.895357142857144,
+                    "searchRankLostImpressionShare": 54.92214285714285,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 14.597674418604651,
+                    "roas": 0.06850406245021508,
+                    "ctr": 0.06397306397306397,
+                    "cpc": 3.3036842105263156,
+                    "conversionRate": 0.2263157894736842,
+                    "cpm": 211.34680134680136,
+                    "from_text": "Mar 30th",
+                    "to_text": "Apr 28th"
+                },
+                "20200429_20200528": {
+                    "_id": "adwords1234567890",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1588140000000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1590645600000"
+                        }
+                    },
+                    "impressions": 358,
+                    "clicks": 45,
+                    "cost": 118.2485,
+                    "conversions": 12.5,
+                    "conversionValue": 11.5,
+                    "searchTopImpressionShare": 77.96666666666667,
+                    "searchImpressionShare": 79.96666666666667,
+                    "searchBudgetLostImpressionShare": 2.853,
+                    "searchRankLostImpressionShare": 17.14466666666667,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 9.45988,
+                    "roas": 0.0972528192746631,
+                    "ctr": 0.12569832402234637,
+                    "cpc": 2.6277444444444447,
+                    "conversionRate": 0.2777777777777778,
+                    "cpm": 330.30307262569835,
+                    "from_text": "Apr 29th",
+                    "to_text": "May 28th"
+                }
+            }
+        },
+        "cardMetrics": [
+            {
+                "label": "Cost",
+                "behavior": "normal",
+                "dataType": "currency",
+                "property": "cost",
+                "current": 118.2485,
+                "previous": 125.53999999999999,
+                "positive": false,
+                "delta": "7.29",
+                "deltaPercent": "-5.81%"
+            },
+            {
+                "label": "Clicks",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "clicks",
+                "current": 45,
+                "previous": 38,
+                "positive": true,
+                "delta": "7.00",
+                "deltaPercent": "18.42%"
+            },
+            {
+                "label": "Impressions",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "impressions",
+                "current": 358,
+                "previous": 594,
+                "positive": false,
+                "delta": "236.00",
+                "deltaPercent": "-39.73%"
+            },
+            {
+                "label": "Conversions",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "conversions",
+                "current": 12.5,
+                "previous": 8.6,
+                "positive": true,
+                "delta": "3.90",
+                "deltaPercent": "45.35%"
+            },
+            {
+                "label": "Cost per Conversion",
+                "behavior": "inverse",
+                "dataType": "currency",
+                "property": "costPerConversion",
+                "current": 9.45988,
+                "previous": 14.597674418604651,
+                "positive": true,
+                "delta": "5.14",
+                "deltaPercent": "-35.20%"
+            },
+            {
+                "label": "Conversion Value",
+                "behavior": "normal",
+                "dataType": "currency",
+                "property": "conversionValue",
+                "current": 11.5,
+                "previous": 8.6,
+                "positive": true,
+                "delta": "2.90",
+                "deltaPercent": "33.72%"
+            },
+            {
+                "label": "ROAS",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "conversionValueByCost",
+                "current": "0",
+                "previous": "0",
+                "positive": false,
+                "delta": "0.00",
+                "deltaPercent": "0.00%"
+            },
+            {
+                "label": "Search Top Impression Share",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "searchTopImpressionShare",
+                "current": 77.96666666666667,
+                "previous": 20.571428571428573,
+                "positive": true,
+                "delta": "57.40",
+                "deltaPercent": "279.00%"
+            },
+            {
+                "label": "Search Impression Share",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "searchImpressionShare",
+                "current": 79.96666666666667,
+                "previous": 28.464285714285715,
+                "positive": true,
+                "delta": "51.50",
+                "deltaPercent": "180.94%"
+            }
+        ]
+    },
+    {
+        "id": "adwords987654321",
+        "name": "Search Campaign",
+        "type": "SEARCH",
+        "subType": null,
+        "status": "ACTIVE",
+        "serviceType": "adwords",
+        "currency": "USD",
+        "metrics": {
+            "monthly": {
+                "20200229_20200329": {
+                    "_id": "adwords987654321",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1582956000000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1585461600000"
+                        }
+                    },
+                    "impressions": 3090,
+                    "clicks": 159,
+                    "cost": 1118.78,
+                    "conversions": 23,
+                    "conversionValue": 9,
+                    "searchTopImpressionShare": 42.06896551724138,
+                    "searchImpressionShare": 53.275862068965516,
+                    "searchBudgetLostImpressionShare": 13.437586206896551,
+                    "searchRankLostImpressionShare": 33.20172413793104,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 48.64260869565217,
+                    "roas": 0.008044477019610648,
+                    "ctr": 0.05145631067961165,
+                    "cpc": 7.036352201257862,
+                    "conversionRate": 0.14465408805031446,
+                    "cpm": 362.06472491909386,
+                    "from_text": "Feb 29th",
+                    "to_text": "Mar 29th"
+                },
+                "20200330_20200428": {
+                    "_id": "adwords987654321",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1585548000000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1588053600000"
+                        }
+                    },
+                    "impressions": 4377,
+                    "clicks": 200,
+                    "cost": 1139.22,
+                    "conversions": 44.5,
+                    "conversionValue": 12,
+                    "searchTopImpressionShare": 35.96666666666667,
+                    "searchImpressionShare": 50.086666666666666,
+                    "searchBudgetLostImpressionShare": 25.378666666666668,
+                    "searchRankLostImpressionShare": 24.499000000000002,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 25.600449438202247,
+                    "roas": 0.010533522936746195,
+                    "ctr": 0.045693397304089556,
+                    "cpc": 5.6961,
+                    "conversionRate": 0.2225,
+                    "cpm": 260.27416038382455,
+                    "from_text": "Mar 30th",
+                    "to_text": "Apr 28th"
+                },
+                "20200429_20200528": {
+                    "_id": "adwords987654321",
+                    "from": {
+                        "$date": {
+                            "$numberLong": "1588140000000"
+                        }
+                    },
+                    "to": {
+                        "$date": {
+                            "$numberLong": "1590645600000"
+                        }
+                    },
+                    "impressions": 5811,
+                    "clicks": 296,
+                    "cost": 984.47,
+                    "conversions": 58,
+                    "conversionValue": 4.5,
+                    "searchTopImpressionShare": 29.9,
+                    "searchImpressionShare": 43.776666666666664,
+                    "searchBudgetLostImpressionShare": 23.907333333333334,
+                    "searchRankLostImpressionShare": 32.21333333333333,
+                    "contentImpressionShare": null,
+                    "contentBudgetLostImpressionShare": null,
+                    "contentRankLostImpressionShare": null,
+                    "costPerConversion": 16.973620689655174,
+                    "roas": 0.004570987434863429,
+                    "ctr": 0.05093787644123215,
+                    "cpc": 3.325912162162162,
+                    "conversionRate": 0.19594594594594594,
+                    "cpm": 169.41490277060748,
+                    "from_text": "Apr 29th",
+                    "to_text": "May 28th"
+                }
+            }
+        },
+        "cardMetrics": [
+            {
+                "label": "Cost",
+                "behavior": "normal",
+                "dataType": "currency",
+                "property": "cost",
+                "current": 984.47,
+                "previous": 1139.22,
+                "positive": false,
+                "delta": "154.75",
+                "deltaPercent": "-13.58%"
+            },
+            {
+                "label": "Clicks",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "clicks",
+                "current": 296,
+                "previous": 200,
+                "positive": true,
+                "delta": "96.00",
+                "deltaPercent": "48.00%"
+            },
+            {
+                "label": "Impressions",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "impressions",
+                "current": 5811,
+                "previous": 4377,
+                "positive": true,
+                "delta": "1,434.00",
+                "deltaPercent": "32.76%"
+            },
+            {
+                "label": "Conversions",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "conversions",
+                "current": 58,
+                "previous": 44.5,
+                "positive": true,
+                "delta": "13.50",
+                "deltaPercent": "30.34%"
+            },
+            {
+                "label": "Cost per Conversion",
+                "behavior": "inverse",
+                "dataType": "currency",
+                "property": "costPerConversion",
+                "current": 16.973620689655174,
+                "previous": 25.600449438202247,
+                "positive": true,
+                "delta": "8.63",
+                "deltaPercent": "-33.70%"
+            },
+            {
+                "label": "Conversion Value",
+                "behavior": "normal",
+                "dataType": "currency",
+                "property": "conversionValue",
+                "current": 4.5,
+                "previous": 12,
+                "positive": false,
+                "delta": "7.50",
+                "deltaPercent": "-62.50%"
+            },
+            {
+                "label": "ROAS",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "conversionValueByCost",
+                "current": "0",
+                "previous": "0",
+                "positive": false,
+                "delta": "0.00",
+                "deltaPercent": "0.00%"
+            },
+            {
+                "label": "Search Top Impression Share",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "searchTopImpressionShare",
+                "current": 29.9,
+                "previous": 35.96666666666667,
+                "positive": false,
+                "delta": "6.07",
+                "deltaPercent": "-16.87%"
+            },
+            {
+                "label": "Search Impression Share",
+                "behavior": "normal",
+                "dataType": "float",
+                "property": "searchImpressionShare",
+                "current": 43.776666666666664,
+                "previous": 50.086666666666666,
+                "positive": false,
+                "delta": "6.31",
+                "deltaPercent": "-12.60%"
+            }
+        ]
+    }
+]
