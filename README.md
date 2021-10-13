@@ -36,6 +36,4 @@ This application is about an angular test.
  - Fausto Posso. 
 
 ---
-⌨️ with ♡ by Fausto Posso Paz.
-\
-&nbsp;
+
